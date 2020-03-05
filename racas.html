@@ -14,6 +14,20 @@
     />
     <!-- ############ Meu link CSS ########### -->
     <link rel="stylesheet" href="css/estilos.css" />
+
+    <style>
+      body {
+        background-image: url("img/fundo2.jpg");
+        background-size: 100%;
+        /* Fazer com que a imagem não repita no plano de fundo,
+      ou seja, será exibida apenas uma */
+        background-repeat: no-repeat;
+        /* Vamos fixar a imagem no plano de fundo para que ela
+      não role junto com o texto, esta imagem 
+      não ficará travada. */
+        background-attachment: fixed;
+      }
+    </style>
   </head>
   <body>
     <!--###### Início da barra de navegação ########### -->
@@ -75,10 +89,202 @@
       <img src="img/logo.png" alt="Imagem Do Logo" />
     </header>
     <main>
-      <div class="container-fluid"></div>
+      <div class="container-fluid">
+       <!-- ################ Início das imagens em miniatura ############ -->
+       <div id="raca">
+        <img
+          src="img/rottweiler1.jpg"
+          alt="rottweiler"
+          data-toggle="modal"
+          data-target=".bd-example-modal-xl"
+        />
+        
+        
+
+        <img
+        src="img/dash.jpg"
+        alt="Daschund"
+        data-toggle="modal"
+        data-target=".bd-example-modal-xl2"
+      />
+     
+
+      <img
+      src="img/dalmata.jpg"
+      alt="Dálmata"
+      data-toggle="modal"
+      data-target=".bd-example-modal-xl3"
+    />
+    
+
+    <img
+    src="img/golden.jpg"
+    alt="Golden retrivier"
+    data-toggle="modal"
+    data-target=".bd-example-modal-xl4"
+  />
+  
+  <img
+  src="img/husky.jpg"
+  alt="husky"
+  data-toggle="modal"
+  data-target=".bd-example-modal-xl5"
+/>
+
+<img
+src="img/collie.jpg"
+alt="collie"
+data-toggle="modal"
+data-target=".bd-example-modal-xl6"
+/>
+
+<img
+src="img/pastor.jpg"
+alt="Pastor Alemão"
+data-toggle="modal"
+data-target=".bd-example-modal-xl7"
+/>
+
+<img
+src="img/yorkshire.jpg"
+alt="Yorkshire"
+data-toggle="modal"
+data-target=".bd-example-modal-xl8"
+/>
+
+
+  
+
+      </div>
+
+      <!-- ################ Fim das imagens em miniatura ###############-->
+
+
+      <!-- ##################### Início do Modal das imagens ################ -->
+      <div
+        class="modal fade bd-example-modal-xl"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <img src="img/rottweiler1.jpg" alt="rottweiler">
+          </div>
+        </div>
+      </div>
+      
+
+      <div
+        class="modal fade bd-example-modal-xl2"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <img src="img/dash.jpg" alt="Daschund">
+          </div>
+        </div>
+      </div>
+
+
+      <div
+        class="modal fade bd-example-modal-xl3"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <img src="img/dalmata.jpg" alt="dalmata">
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade bd-example-modal-xl4"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <img src="img/golden.jpg" alt="Golden">
+          </div>
+        </div>
+      </div>
+
+
+      <div
+        class="modal fade bd-example-modal-xl5"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myExtraLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <img src="img/husky.jpg" alt="Husky">
+          </div>
+        </div>
+      </div>
+
+      <div
+      class="modal fade bd-example-modal-xl6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myExtraLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <img src="img/collie.jpg" alt="Collie">
+        </div>
+      </div>
+    </div>
+    
+    <div
+    class="modal fade bd-example-modal-xl7"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="myExtraLargeModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <img src="img/pastor.jpg" alt="Pastor">
+      </div>
+    </div>
+  </div>
+  
+  <div
+  class="modal fade bd-example-modal-xl8"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myExtraLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <img src="img/yorkshire.jpg" alt="Yorkshire">
+    </div>
+  </div>
+</div>
+
+
+
+
+      <!-- #################### Fim do modal das imagens ###################### -->
+      </div>
     </main>
 
     <!-- ################# Início do footer ############## -->
+    <footer>
     <div class="card">
         <div class="card-header">
           Contato

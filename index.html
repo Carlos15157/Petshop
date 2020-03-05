@@ -14,6 +14,28 @@
     />
     <!-- ############ Meu link CSS ########### -->
     <link rel="stylesheet" href="css/estilos.css" />
+
+    <!-- Este CSS é exibido , ou seja, executado somente nesta página, pois
+  ele foi embutido(embed) -->
+  <style>
+    body {
+      background-color: black;
+      background-size: 100%;
+      /* Fazer com que a imagem não repita no plano de fundo,
+    ou seja, será exibida apenas uma */
+      background-repeat: no-repeat;
+      /* Vamos fixar a imagem no plano de fundo para que ela
+    não role junto com o texto, esta imagem 
+    não ficará travada. */
+      background-attachment: fixed;
+    }
+    h2{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+  </style>
   </head>
   <body>
     <!--###### Início da barra de navegação ########### -->
@@ -75,10 +97,108 @@
       <img src="img/logo.png" alt="Imagem Do Logo" />
     </header>
     <main>
-      <div class="container-fluid"></div>
+      <div class="container-fluid">
+        <div id="home1">
+          <h2>
+            Sejam Bem-Vindos ao Petshop Cãozinho Feliz<br />
+            o Melhor Lugar para adquirir seus pets e acessórios.
+          </h2>
+          <p>
+            <span
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed vel
+              laborum eos natus nihil reiciendis, delectus dolores dignissimos
+              ullam quis eum ipsum iure suscipit ut sint mollitia quaerat maxime
+              quas.</span
+            >
+            <span
+              >Saepe veritatis necessitatibus odit at repudiandae assumenda
+              sequi dolore inventore, velit consequatur dicta quasi culpa
+              distinctio reprehenderit, a placeat dolorem, est deserunt fugit
+              nesciunt adipisci nostrum. Laborum culpa inventore quidem.</span
+            >
+            <span
+              >Incidunt nostrum placeat iste commodi unde. Hic atque ducimus nam
+              id non eum ut iure magnam sapiente quaerat totam aliquam iste
+              blanditiis voluptas officiis perspiciatis, commodi earum
+              dignissimos accusantium repellendus.</span
+            >
+            <span
+              >Quisquam consequuntur fugit voluptatibus tempore impedit quia et
+              in voluptas saepe! Totam ut ullam quod voluptas laudantium dolores
+              quaerat tempore iure. Quasi, cum. Dolorem numquam maxime at ex
+              aliquid nobis.</span
+            >
+          </p>
+          <p>
+            <span
+              >Repudiandae delectus optio nobis rem at voluptatem, perspiciatis
+              quas totam id recusandae, nihil sit voluptatum veniam nesciunt
+              impedit! Molestiae esse corporis temporibus adipisci quaerat
+              mollitia odio minima, odit corrupti sunt?</span
+            >
+            <span
+              >Nobis corrupti numquam optio quam officia omnis architecto
+              consectetur voluptate pariatur fugiat asperiores ad assumenda
+              velit natus, commodi repellendus aut sapiente incidunt quidem
+              dicta dolor error magnam. Tempora, nisi ab.</span
+            >
+            <span
+              >Voluptatum rerum cum exercitationem! Quidem asperiores
+              praesentium repudiandae eum enim voluptas, nam dicta? Accusantium,
+              itaque odio. Officiis sed reprehenderit minima atque numquam a
+              laboriosam, tempora ipsam officia quos veniam maxime.</span
+            >
+            <span
+              >Iusto ut consequuntur reiciendis non delectus. Pariatur a amet,
+              provident hic suscipit voluptatibus quod sint in nihil fugit dolor
+              voluptate debitis, repellendus, doloremque reprehenderit
+              praesentium laborum sunt ratione vel unde.</span
+            >
+          </p>
+        </div>
+
+        <div id="home2">
+          <h3>Conheça Nosso Ambiente</h3>
+          <p>
+            <span
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Quisquam eos, quos in sequi molestiae vitae iure dolorem id
+              veritatis molestias laborum, ratione corporis tempora impedit
+              dignissimos quidem. Qui, impedit consequatur!</span
+            >
+            <span
+              >Officiis beatae quis, dolorem sint expedita accusantium
+              consectetur aspernatur ducimus alias, tempore vitae placeat. Eum
+              sed saepe voluptatem est consequatur dignissimos mollitia labore
+              nisi assumenda id quas, tenetur, dolore porro!</span
+            >
+            <span
+              >Itaque neque ipsa, fuga omnis aperiam earum dolorum dolores est
+              adipisci aliquam sapiente numquam obcaecati molestiae saepe,
+              quisquam incidunt ducimus quas necessitatibus voluptatibus
+              consequatur rerum. Quos aliquam recusandae itaque dolores.</span
+            >
+            <span
+              >Voluptate modi ullam libero at! Necessitatibus neque nulla alias,
+              magni iste in. Consequuntur, ratione sapiente voluptatum quod
+              doloremque ab at, quibusdam minus et, commodi omnis optio!
+              Mollitia corporis ducimus itaque.</span
+            >
+          </p>
+          <div id="imgHome">
+            <img src="img/area1.jpg" alt="Área divertida" />
+            <img src="img/area2.jpg" alt="Área de acessórios" />
+            <img src="img/area3.jpg" alt="Espaço Pet" />
+            <img src="img/area4.jpg" alt="Entrada" />
+            <img src="img/area5.jpg" alt="Área Principal" />
+          </div>
+        </div>
+      </div>
+      </div>
     </main>
 
     <!-- ################# Início do footer ############## -->
+    <footer>
     <div class="card">
         <div class="card-header">
           Contato
@@ -89,6 +209,7 @@
               Tel: (14) 3425-1330 <br>
               <a href="mailto:contato@caozinhofeliz.com.br">contato@caozinhofeliz.com.br</a>
           </p>
+          <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=http%3A%2F%2F10.26.44.50%2FPetshop&s=8&e=m" alt="Generador de Códigos QR Codes"/>
           
         </div>
       </div>
